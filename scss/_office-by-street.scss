@@ -1,0 +1,398 @@
+.office-by-street {
+    margin: 2rem 0;
+
+    .office-street-holder {
+
+        .office-street-heading {
+
+            h5 {
+                font-family: 'Mulish', sans-serif;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+                margin: 1rem 0;
+            }
+        }
+
+        .office-street-slider {
+            position: relative;
+
+            .swiper-container {
+                padding-bottom: 3rem;
+
+                .swiper-wrapper {
+
+                    .swiper-slide {
+
+                        .img-holder {
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        
+                        .text-holder {
+                            display: block;
+                            margin: 0.5rem 0.2rem;
+                            
+                            
+
+                            h6 {
+                                font-family: 'Mulish', sans-serif;
+                                font-size: 0.9375rem;
+                                font-weight: 700;
+                            }
+
+                            p {
+                                font-family: 'Manrope', sans-serif;
+                                font-size: 0.875rem;
+                                font-weight: 600;
+                                color:  rgba(72, 72, 72, 0.71);
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+
+                .btn {
+                    position: absolute;
+                    font-size: 1.5rem;
+                    color: #39527B;
+                    top: 22%;
+                    z-index: 99;
+                }
+
+                .btn-next {
+                    right: -3%;
+                }
+
+                .btn-prev {
+                    left: -5%;
+                }
+
+                .swiper-pagination {
+                    position: absolute;
+                    bottom: 5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .office-by-street {
+        margin: 3rem 0;
+    
+        .office-street-holder {
+    
+            .office-street-heading {
+    
+                h5 {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 0.8rem 0;
+                }
+            }
+    
+            .office-street-slider {
+                position: relative;
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .img-holder {
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            
+                            .text-holder {
+                                display: block;
+                                margin: 0.5rem 0.2rem;
+                                
+                                
+    
+                                h6 {
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 0.9375rem;
+                                    font-weight: 700;
+                                }
+    
+                                p {
+                                    font-family: 'Manrope', sans-serif;
+                                    font-size: 0.875rem;
+                                    font-weight: 600;
+                                    color:  rgba(72, 72, 72, 0.71);
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        position: absolute;
+                        font-size: 1.5rem;
+                        color: #39527B;
+                        top: 25%;
+                        z-index: 99;
+                    }
+    
+                    .btn-next {
+                        right: 0;
+                    }
+    
+                    .btn-prev {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .office-by-street {
+        margin: 3rem 0;
+    
+        .office-street-holder {
+    
+            .office-street-heading {
+    
+                h5 {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 0.8rem 0;
+                }
+            }
+    
+            .office-street-slider {
+                position: relative;
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .img-holder {
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            
+                            .text-holder {
+                                margin: 0.5rem 0.2rem;
+                                
+                                h6 {
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 0.9375rem;
+                                    font-weight: 700;
+                                }
+    
+                                p {
+                                    font-family: 'Manrope', sans-serif;
+                                    font-size: 0.875rem;
+                                    font-weight: 600;
+                                    color:  rgba(72, 72, 72, 0.71);
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        top: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .office-by-street {
+        margin: 3rem 0;
+    
+        .office-street-holder {
+    
+            .office-street-heading {
+    
+                h5 {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 1rem 0 1.5rem;
+                }
+            }
+    
+            .office-street-slider {
+                position: relative;
+    
+                .swiper-container {
+                   
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .img-holder {
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            
+                            .text-holder {
+                                margin: 0.5rem 0.2rem;
+                                
+                                h6 {
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 0.9375rem;
+                                    font-weight: 700;
+                                }
+    
+                                p {
+                                    font-family: 'Manrope', sans-serif;
+                                    font-size: 0.875rem;
+                                    font-weight: 600;
+                                    color:  rgba(72, 72, 72, 0.71);
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        top: 12.5%;
+                    }  
+
+                    .swiper-pagination {
+                        bottom: 0;
+
+                        .swiper-pagination-bullet-active {
+                            background-color: rgba(25, 54, 102, 0.81);
+                        }
+                    }
+                }
+
+                .uploadSwiper {
+
+                    .btn {
+                        top: 8%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .office-by-street {
+        margin: 3rem 0;
+    
+        .office-street-holder {
+    
+            .office-street-heading {
+    
+                h5 {
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 0.8rem 0;
+                }
+            }
+    
+            .office-street-slider {
+                position: relative;
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .img-holder {
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            
+                            .text-holder {
+                                margin: 0.5rem 0.2rem;
+                                
+                                h6 {
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 0.9375rem;
+                                    font-weight: 700;
+                                }
+    
+                                p {
+                                    font-family: 'Manrope', sans-serif;
+                                    font-size: 0.875rem;
+                                    font-weight: 600;
+                                    color:  rgba(72, 72, 72, 0.71);
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        top: 20.5%;
+                    }  
+                }
+
+                .uploadSwiper {
+
+                    .btn {
+                        top: 15%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .office-by-street {
+        margin: 3rem 0;
+    
+        .office-street-holder {
+    
+            .office-street-slider {
+                position: relative;
+    
+                .swiper-container {
+    
+                    .btn {
+                        top: 25%;
+                    }  
+                }
+
+                .uploadSwiper {
+
+                    .btn {
+                        top: 18%;
+                    }
+
+                    .btn-next {
+                        right: 0%;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+/*adjust btn of upload's slider*/

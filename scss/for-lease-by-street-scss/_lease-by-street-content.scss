@@ -1,0 +1,71 @@
+.lease-by-street-content {
+    font-family: 'Mulish', sans-serif;
+
+    .lease-by-street-holder {
+
+        .lease-by-street-heading {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #193666;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .lease-by-street-details {
+
+            .details-text {
+                font-size: 0.875rem;
+                font-weight: 300;
+                color: #000;
+                text-align: justify;
+                margin-bottom: 1.5rem;
+                line-height: 1.875rem;
+            }
+
+            .details-caption {
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: #000;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .lease-by-street-content {
+        margin-bottom: 3rem;
+    
+        .lease-by-street-holder {
+            width: 70%;
+            margin: 0 auto;
+    
+            .lease-by-street-heading {
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #193666;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .lease-by-street-details {
+    
+                .details-text {
+                    font-size: 0.875rem;
+                    font-weight: 300;
+                    color: #000;
+                    text-align: justify;
+                    margin-bottom: 1.5rem;
+                    line-height: 1.875rem;
+                }
+    
+                .details-caption {
+                    font-size: 0.875rem;
+                    font-weight: 700;
+                    color: #000;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.hn-office-keyword {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+
+    .keyword-holder {
+
+        .keyword-heading {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #313132;
+            margin-bottom: 1rem;
+        }
+
+        .keyword-main {
+
+            .keyword-item {
+                text-decoration: none;
+                text-align: center;
+                font-size: 0.875rem;
+                font-weight: 400;
+                color: #313132;
+                padding: 0.2rem 1rem;
+                background: rgba(231, 231, 231, 0.6);
+                border-radius: 16px;
+                border: 1px solid rgba(231, 231, 231, 0.6);
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            .keyword-item:hover {
+                background: #193666;
+                border: 1px solid #193666;
+                color: #fff;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hn-office-keyword {
+        margin-bottom: 2rem;
+    
+        .keyword-holder {
+    
+            .keyword-heading {
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: #313132;
+                margin-bottom: 1rem;
+            }
+    
+            .keyword-main {
+                display: flex;
+                flex-wrap: wrap;
+    
+                .keyword-item {
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: #313132;
+                    padding: 0.2rem 1rem;
+                    background: rgba(231, 231, 231, 0.6);
+                    border-radius: 16px;
+                    border: 1px solid rgba(231, 231, 231, 0.6);
+                    display: block;
+                    margin: 0 0.5rem 0.5rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .hn-office-keyword {
+    
+        .keyword-holder {
+            margin-left: 3rem;
+    
+            .keyword-heading {
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: #313132;
+                margin-bottom: 1rem;
+            }
+    
+            .keyword-main {
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+    
+                .keyword-item {
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: #313132;
+                    padding: 0.2rem 1rem;
+                    background: rgba(231, 231, 231, 0.6);
+                    border-radius: 16px;
+                    display: block;
+                    margin: 0 0.5rem 0.5rem 0;
+                }
+            }
+        }
+
+        .keyword-holder-1 {
+            margin-left: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hn-office-keyword {
+    
+        .keyword-holder {
+            margin-left: 5rem;
+        }
+
+        .keyword-holder-1 {
+            margin-left: 0;
+        }
+    }
+}

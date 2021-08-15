@@ -1,0 +1,313 @@
+.process {
+    font-family: 'Manrope', sans-serif;
+    background: url(../images/advising-steps-bg.png) no-repeat;
+    background-size: cover;
+
+    .process-overlay {
+        background-color: rgba(25, 54, 102, 0.63);
+        width: 100%;
+        height: 100%;
+
+
+        .process-holder {
+            padding: 2rem 0;
+
+            .process-left {
+    
+                .left-heading {
+    
+                    h5 {
+                        text-align: center;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color: #fff;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    .heading-description {
+                        font-size: 0.875rem;
+                        font-weight: 200;
+                        color: #fff;
+                        text-align: center;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .process-right {
+                margin: 2rem 0;
+
+                .right-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0.5rem;
+
+                    .number {
+                        flex: 0 0 20%;
+                        margin-right: 0.5rem;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        font-weight: 800;
+                        width: 20%;
+                        padding: 0.6rem;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        color: #2B7BFF;
+                    }
+
+                    .item-content {
+
+                        h6 {
+                           font-size: 1.125rem; 
+                           font-weight: 700;
+                           color: #fff;
+                           margin-bottom: 0.2rem;
+                        }
+
+                        p {
+                            font-family: 'Manrope-Ex-Light', sans-serif;
+                            font-size: 0.875rem;
+                            font-weight: 300;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .process {
+    
+        .process-overlay {
+    
+            .process-holder {
+                padding: 2rem 0;
+    
+                .process-left {
+        
+                    .left-heading {
+        
+                        h5 {
+                            text-align: center;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            margin-bottom: 0.5rem;
+                        }
+    
+                        .heading-description {
+                            font-size: 0.875rem;
+                            font-weight: 200;
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+                .process-right {
+                    margin: 2rem 0;
+    
+                    .right-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.5rem;
+    
+                        .number {
+                            flex: 0 0 16%;
+                            margin-right: 0.5rem;
+                            text-align: center;
+                            font-size: 1.5rem;
+                            font-weight: 800;
+                            width: 20%;
+                            padding: 0.6rem;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            color: #2B7BFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .process {
+    
+        .process-overlay {
+    
+            .process-holder {
+                padding: 2rem 0;
+    
+                .process-left {
+        
+                    .left-heading {
+        
+                        h5 {
+                            text-align: center;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            margin-bottom: 0.5rem;
+                        }
+    
+                        .heading-description {
+                            font-size: 0.875rem;
+                            font-weight: 200;
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+                .process-right {
+                    margin: 2rem 0;
+    
+                    .right-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.5rem;
+    
+                        .number {
+                            flex: 0 0 14%;
+                            margin-right: 0.5rem;
+                            text-align: center;
+                            font-size: 1.5rem;
+                            font-weight: 800;
+                            width: 20%;
+                            padding: 0.6rem;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            color: #2B7BFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .process {
+    
+        .process-overlay {
+    
+            .process-holder {
+                padding: 2rem 0;
+                display: flex;
+                align-items: center;
+    
+                .process-left {
+                    flex: 0 0 40%;
+                    margin-right: 0.8rem;
+        
+                    .left-heading {
+        
+                        h5 {
+                            text-align: center;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            margin-bottom: 0.5rem;
+                        }
+    
+                        .heading-description {
+                            font-size: 0.875rem;
+                            font-weight: 200;
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+                .process-right {
+                    margin: 2rem 0;
+    
+                    .right-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.5rem;
+    
+                        .number {
+                            flex: 0 0 14%;
+                            margin-right: 0.5rem;
+                            text-align: center;
+                            font-size: 1.5rem;
+                            font-weight: 800;
+                            width: 20%;
+                            padding: 0.6rem;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            color: #2B7BFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .process {
+    
+        .process-overlay {
+    
+            .process-holder {
+                padding: 2rem 0;
+                display: flex;
+                align-items: center;
+    
+                .process-left {
+                    flex: 0 0 50%;
+                    margin-right: 1rem;
+        
+                    .left-heading {
+        
+                        h5 {
+                            text-align: center;
+                            font-size: 1.5rem;
+                            font-weight: 700;
+                            color: #fff;
+                            margin-bottom: 0.5rem;
+                        }
+    
+                        .heading-description {
+                            font-size: 1.125rem;
+                            font-weight: 200;
+                            color: #fff;
+                            text-align: center;
+                            width: 75%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+    
+                .process-right {
+                    margin: 2rem 0;
+    
+                    .right-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.5rem;
+    
+                        .number {
+                            flex: 0 0 12.8%;
+                            margin-right: 0.8rem;
+                            margin-top: -0.5rem;
+                            text-align: center;
+                            font-size: 2rem;
+                            font-weight: 800;
+                            width: 20%;
+                            padding: 0.6rem;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            color: #2B7BFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

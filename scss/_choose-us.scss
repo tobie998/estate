@@ -1,0 +1,182 @@
+.choose-us {
+    background-color: #193666;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+
+    .choose-us-holder {
+
+        .choose-us-heading {
+
+            h5 {
+                font-family: 'Manrope', sans-serif;
+                color: #fff;
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .choose-us-content {
+            font-family: 'Manrope', sans-serif;
+
+            .content-item {
+                padding: 2rem 1rem;
+                border-radius: 1.5rem;
+                background-color: #fff;
+                margin-bottom: 1.5rem;
+
+                .logo-holder {
+                    width: 50%;
+                    margin: 0 auto;
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .item-title {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: #193666;
+                    text-align: center;
+                    margin: 1rem 0;
+                }
+
+                .item-content {
+                    font-size: 0.9375rem;
+                    font-weight: 500;
+                    color: #484848;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .choose-us {
+        background-color: #193666;
+        padding: 2rem 0;
+        margin-bottom: 4rem;
+    
+        .choose-us-holder {
+    
+            .choose-us-heading {
+    
+                h5 {
+                    font-family: 'Manrope', sans-serif;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin-bottom: 1.5rem;
+                }
+            }
+    
+            .choose-us-content {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 1.5rem;
+    
+                .content-item {
+                    padding: 2rem 1rem;
+                    border-radius: 1.5rem;
+                    background-color: #fff;
+                    margin-bottom: 1.5rem;
+    
+                    .logo-holder {
+                        width: 50%;
+                        margin: 0 auto;
+                        
+                        img {
+                            width: 100%;
+                        }
+
+                        .img-3 {
+                            margin-top: 0.5rem;
+                        }
+                    }
+    
+                    .item-title {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color: #193666;
+                        text-align: center;
+                        margin: 1rem 0;
+                    }
+    
+                    .item-content {
+                        font-size: 0.9375rem;
+                        font-weight: 500;
+                        color: #484848;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .choose-us {
+        background-color: #193666;
+        padding: 2rem 0;
+    
+        .choose-us-holder {
+    
+            .choose-us-heading {
+    
+                h5 {
+                    font-family: 'Manrope', sans-serif;
+                    color: #fff;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 2rem 0 3rem;
+                }
+            }
+    
+            .choose-us-content {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 3.6rem;
+    
+                .content-item {
+                    padding: 4rem 2rem 5rem;
+                    border-radius: 1.5rem;
+                    background-color: #fff;
+                    margin-bottom: 1.5rem;
+    
+                    .logo-holder {
+                        width: 30%;
+                        margin: -3rem auto 0;
+                        
+                        img {
+                            width: 100%;
+                        }
+
+                        .img-3 {
+                            margin-top: 0.5rem;
+                        }
+                    }
+    
+                    .item-title {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: #193666;
+                        text-align: center;
+                        margin: 1rem 0;
+                    }
+    
+                    .item-content {
+                        font-size: 0.9375rem;
+                        font-weight: 500;
+                        color: #484848;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}

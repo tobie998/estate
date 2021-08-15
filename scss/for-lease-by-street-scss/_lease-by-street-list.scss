@@ -1,0 +1,115 @@
+.lease-by-street-list {
+    margin: 1rem 0;
+
+    .list-holder {
+
+        .list-heading {
+            font-family: 'Mulish', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #193666;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .list-details {
+            font-family: 'Roboto', sans-serif;
+
+            .list-item {
+                padding-bottom: 1rem;
+
+                .item-district {
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                    color: #193666;
+                    padding: 0.5rem 0;
+                }
+
+                .item-street-holder {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 1rem;
+
+                    .item-street {
+                        margin-bottom: 0.5rem;
+    
+                        a {
+                            display: block;
+                            text-decoration: none;
+                            font-size: 0.75rem;
+                            font-weight: 300;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+
+            .list-item:not(:last-child) {
+                border-bottom: 1px solid #E5E5E5;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lease-by-street-list {
+        margin: 1rem 0 4rem;
+    
+        .list-holder {
+            width: 70%;
+            margin: 0 auto;
+    
+            .list-heading {
+                font-family: 'Mulish', sans-serif;
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #193666;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+    
+            .list-details {
+                font-family: 'Roboto', sans-serif;
+    
+                .list-item {
+                    padding: 1rem 0;
+                    display: grid;
+                    grid-template-columns: 25% 75%;
+    
+                    .item-district {
+                        font-size: 1.125rem;
+                        font-weight: 700;
+                        color: #193666;
+                        padding: 0;
+                    }
+    
+                    .item-street-holder {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-gap: 1rem;
+                        margin-top: 0.5rem;
+    
+                        .item-street {
+                            margin-bottom: 0rem;
+        
+                            a {
+                                display: block;
+                                text-decoration: none;
+                                font-size: 0.75rem;
+                                font-weight: 300;
+                                color: #000;
+                                margin-bottom: 0.5rem;
+                            }
+
+                            a:hover {
+                                color: #193666;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

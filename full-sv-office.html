@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Văn phòng Trọn Gói</title>
+
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./scss/style.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <div class="container container-sm container-md container-lg container-xl">
+           <div class="sub-header-holder">
+                <div class="sub-header-info">
+                    <a href="mailto:" class="info info-mail">
+                        <i class="lar la-envelope-open"></i>
+                        <div>webdemo@gmail.com</div>
+                    </a>
+        
+                    <a href="tel:" class="info info-number">
+                        <i class="las la-phone"></i>
+                        <div>(08) 0909 0909</div>
+                    </a>
+                </div>    
+        
+                <div class="sub-header-address">
+                    <div class="icon-holder">
+                        <img src="./images/location.png" alt="Location icon">
+                    </div>
+
+                    <div class="content">Địa chỉ: Nguyễn Xiển - Thanh Xuân - Hà Nội</div>
+                </div>
+           </div>
+
+           <div class="overlay"></div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="header-holder">
+                <div class="logo-holder">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+    
+                <nav class="nav-bar">
+                    <div class="menu-btn" id="open-menu">
+                        <i class="las la-bars"></i>
+                    </div>
+    
+                    <div class="mobile-nav">
+                        <div class="close-btn" id="close-menu">
+                            <i class="las la-times"></i>
+                        </div>
+    
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="hanoi-office.html">Văn phòng Hà Nội</a></li>
+                            <li><a href="full-sv-office.html" class="active">Văn phòng trọn gói</a></li>
+                            <li><a href="ground.html">Mặt bằng sàn</a></li>
+                            <li><a href="contact-us.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="desktop-nav">
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="hanoi-office.html">Văn phòng Hà Nội</a></li>
+                            <li><a href="full-sv-office.html" class="active">Văn phòng trọn gói</a></li>
+                            <li><a href="ground.html">Mặt bằng sàn</a></li>
+                            <li><a href="contact-us.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hn-office-taskbar">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="taskbar-holder">
+                <nav class="navbar mobile-taskbar">
+                    <div class="btn-holder">
+                        <button class="btn btn-for-lease btn-active">Cho thuê</button>
+                        <button class="btn btn-for-sale">Bán</button>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <i class="fas fa-chevron-circle-down"></i>
+                    </button>
+
+                    <div class="collapse narbar-collapse" id="collapsibleNavbar">
+                        <div class="input-holder">
+                            <input type="text" placeholder="Tìm kiếm địa điểm, khu vực">
+                            <i class="fas fa-search"></i>
+                        </div>
+
+                        <div class="content-holder">
+                            <div class="filter-holder">
+                                <div class="filter-item">
+                                    <div class="item-label item-label-1">
+                                        Khu vực
+                                        <i class="fas fa-sort"></i>
+                                        <p>Hà Nội</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-1">
+                                        <ul>
+                                            <li><span>Hải Phòng</span></li>
+                                            <li><span>Hải Dương</span></li>
+                                            <li><span>Hưng Yên</span></li>
+                                            <li><span>Quảng Ninh</span></li>
+                                            <li><span>Ninh Bình</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-2">
+                                        Quận
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-2">
+                                        <ul>
+                                            <li><span>Quận Cầu Giấy</span></li>
+                                            <li><span>Quận Hà Đông</span></li>
+                                            <li><span>Quận Nam Từ Liêm</span></li>
+                                            <li><span>Quận Bắc Từ Liêm</span></li>
+                                            <li><span>Quận Thanh Xuân</span></li>
+                                            <li><span>Quận Long Biên</span></li>
+                                            <li><span>Quận Hoàn Kiếm</span></li>
+                                            <li><span>Quận Đống Đa</span></li>
+                                            <li><span>Quận Ba Đình</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-3">
+                                        Đường
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-3">
+                                        <ul>
+                                            <li><span>Sunshine  - Phan Thiết, Long Biên</span></li>
+                                            <li><span>The Pride - Tố Hữu, Hà Đông</span></li>
+                                            <li><span>Lotte Center</span></li>
+                                            <li><span>Keangnam Hanoi Landmark Tower</span></li>
+                                            <li><span>Petrovietnam Tower</span></li>
+                                            <li><span>Charmvit Grand Plaza</span></li>
+                                            <li><span>Crown Plaza Complex</span></li>                                </a>
+                                            <li><span>Indochina Plaza Hanoi</span></li>
+                                            <li><span>Petrovietnam Tower</span></li>  
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-4">
+                                        Giá
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-4">
+                                        <ul>
+                                            <li><span>10-15 triệu</span></li>
+                                            <li><span>15-20 triệu</span></li>
+                                            <li><span>20-30 triệu</span></li>
+                                            <li><span>30- 50 triệu</span></li>
+                                            <li><span>50- 80 triệu</span></li>
+                                            <li><span>80-100 triệu</span></li>
+                                            <li><span>100-200 triệu</span></li>
+                                            <li><span>200-300 triệu</span></li>
+                                            <li><span>300 -500 triệu</span></li>
+                                            <li><span>> 500 triệu</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-5">
+                                        Diện Tích
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-5">
+                                        <ul>
+                                            <li><span>< 30 m2</span></li>
+                                            <li><span>30 - 50 m2</span></li>
+                                            <li><span>50 - 80 m2</span></li>
+                                            <li><span>80 - 100 m2</span></li>
+                                            <li><span>100 - 150 m2</span></li>
+                                            <li><span>150 - 200 m2</span></li>
+                                            <li><span>200 - 250 m2</span></li>
+                                            <li><span>250 - 300 m2</span></li>
+                                            <li><span>300 - 500 m2</span></li>
+                                            <li><span>> 500 m2</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="search-btn-holder">
+                                <button class="btn-search">
+                                    Tìm kiếm
+                                </button>
+    
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="desktop-taskbar">
+                    <div class="btn-holder">
+                        <button class="btn btn-for-lease btn-active">Cho thuê</button>
+                        <button class="btn btn-for-sale">Bán</button>
+                    </div>
+
+                    
+                    <div class="input-holder">
+                        <input type="text" placeholder="Tìm kiếm địa điểm, khu vực">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                    <div class="content-holder">
+                        <div class="filter-item">
+                            <div class="item-label item-label-1">
+                                Khu vực
+                                <i class="fas fa-sort"></i>
+                                <p>Hà Nội</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-1">
+                                <ul>
+                                    <li><span>Hải Phòng</span></li>
+                                    <li><span>Hải Dương</span></li>
+                                    <li><span>Hưng Yên</span></li>
+                                    <li><span>Quảng Ninh</span></li>
+                                    <li><span>Ninh Bình</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-2">
+                                Quận
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-2">
+                                <ul>
+                                    <li><span>Quận Cầu Giấy</span></li>
+                                    <li><span>Quận Hà Đông</span></li>
+                                    <li><span>Quận Nam Từ Liêm</span></li>
+                                    <li><span>Quận Bắc Từ Liêm</span></li>
+                                    <li><span>Quận Thanh Xuân</span></li>
+                                    <li><span>Quận Long Biên</span></li>
+                                    <li><span>Quận Hoàn Kiếm</span></li>
+                                    <li><span>Quận Đống Đa</span></li>
+                                    <li><span>Quận Ba Đình</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-3">
+                                Đường
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-3">
+                                <ul>
+                                    <li><span>Sunshine  - Phan Thiết, Long Biên</span></li>
+                                    <li><span>The Pride - Tố Hữu, Hà Đông</span></li>
+                                    <li><span>Lotte Center</span></li>
+                                    <li><span>Keangnam Hanoi Landmark Tower</span></li>
+                                    <li><span>Petrovietnam Tower</span></li>
+                                    <li><span>Charmvit Grand Plaza</span></li>
+                                    <li><span>Crown Plaza Complex</span></li>                                </a>
+                                    <li><span>Indochina Plaza Hanoi</span></li>
+                                    <li><span>Petrovietnam Tower</span></li>  
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-4">
+                                Giá
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-4">
+                                <ul>
+                                    <li><span>10-15 triệu</span></li>
+                                    <li><span>15-20 triệu</span></li>
+                                    <li><span>20-30 triệu</span></li>
+                                    <li><span>30- 50 triệu</span></li>
+                                    <li><span>50- 80 triệu</span></li>
+                                    <li><span>80-100 triệu</span></li>
+                                    <li><span>100-200 triệu</span></li>
+                                    <li><span>200-300 triệu</span></li>
+                                    <li><span>300 -500 triệu</span></li>
+                                    <li><span>> 500 triệu</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-5">
+                                Diện Tích
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-5">
+                                <ul>
+                                    <li><span>< 30 m2</span></li>
+                                    <li><span>30 - 50 m2</span></li>
+                                    <li><span>50 - 80 m2</span></li>
+                                    <li><span>80 - 100 m2</span></li>
+                                    <li><span>100 - 150 m2</span></li>
+                                    <li><span>150 - 200 m2</span></li>
+                                    <li><span>200 - 250 m2</span></li>
+                                    <li><span>250 - 300 m2</span></li>
+                                    <li><span>300 - 500 m2</span></li>
+                                    <li><span>> 500 m2</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-btn-holder">
+                        <button class="btn-search">
+                            Tìm kiếm
+                        </button>
+
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hn-office-caption">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="caption-content">
+                cho thuê / văn phòng trọn gói / hà nội
+            </div>
+        </div>
+    </section>
+
+    <section class="hn-office-main">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="main-holder">
+                <div class="main-heading">
+                    <p class="heading-text">
+                        Cho thuê / Hà Nội / Quận Thanh Xuân / Văn phòng trọn gói
+                    </p>
+
+                    <h6>
+                        BÁN - CHO THUÊ VĂN PHÒNG QUẬN THANH XUÂN, HÀ NỘI 100m2 giá từ 15tr/tháng
+                    </h6>
+
+                    <p class="heading-text">
+                        Hiện có 20 Văn phòng cho thuê
+                    </p>
+
+                    <button class="btn-sort">
+                        Sắp xếp
+                        <i class="fas fa-sort"></i>
+                        <div class="btn-sort-dropdown">
+                            <ul>
+                                <li><span>Từ thấp đến cao</span></li>
+                                <li><span>Từ cao đến thấp</span></li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="main-content">
+                    <div class="content-left">
+                        <div class="left-item">
+                            <a href="#" class="img-holder vipnew">
+                                <img src="./images/hn-office-img-1.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder outstanding">
+                                <img src="./images/hn-office-img-1.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-1.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-2.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-3.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-4.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-5.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-6.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-7.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-8.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-9.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="left-item">
+                            <a href="#" class="img-holder">
+                                <img src="./images/hn-office-img-1.png" alt="hn-office-img-1">
+                            </a>
+
+                            <div class="left-details">
+                                <a href="#" class="details-heading">
+                                    Giá sốc cho thuê văn phòng giá rẻ nhất, địa chỉ 123 đường Xuân Thủy, Quận Thanh Xuân, Hà Nội. Liên hệ: 0123456789.
+                                </a>
+
+                                <div class="details-content">
+                                    Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...
+                                </div>
+
+                                <div class="details-info">
+                                    <p class="infor infor-price">
+                                        <i class="fas fa-tag"></i>
+                                        13 triệu/th
+                                    </p>
+
+                                    <p class="infor infor-square">
+                                        <img src="./images/square-icon.png" alt="square-icon">
+                                        200m2
+                                    </p>
+
+                                    <p class="infor infor-building">
+                                        <i class="far fa-building"></i>
+                                        5
+                                    </p>
+
+                                    <p class="infor infor-air">
+                                        <img src="./images/air-condition-icon.png" alt="air-condition-icon">
+                                        4
+                                    </p>
+                                </div>
+
+                                <div class="details-address">
+                                    <p class="address-text">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Nguyễn Xiển, Thanh Xuân, Hà Nội
+                                    </p>
+
+                                    <p class="address-icon">
+                                        <i class="heart-icon"></i>
+                                    </p>
+                                </div>
+
+                                <div class="details-date">
+                                    <i class="far fa-clock"></i>
+                                    23/4/2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagination">
+                            <button class="btn btn-prev"><i class="fas fa-arrow-left"></i></button>
+                            <a href="#" class="page-number page-number-active">01</a>
+                            <a href="#" class="page-number">02</a>
+                            <a href="#" class="page-number">03</a>
+                            <a href="#" class="page-number">04</a>
+                            <a href="#" class="page-number">05</a>
+                            <a href="#" class="page-number">06</a>
+                            <a href="#" class="page-number">07</a>
+                            <a href="#" class="page-number">08</a>
+                            <button class="btn btn-next"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="content-right">
+                        <div class="right-item">
+                            <div class="item-heading">
+                                Lọc theo các Quận - Hà Nội
+                            </div>
+
+                            <div class="item-content">
+                                <ul>
+                                    <li><a href="#">Quận Cầu Giấy</a></li>
+                                    <li><a href="#">Quận Hà Đông</a></li>
+                                    <li><a href="#">Quận Nam Từ Liêm</a></li>
+                                    <li><a href="#">Quận Bắc Từ Liêm</a></li>
+                                    <li><a href="#">Quận Thanh Xuân</a></li>
+                                    <li><a href="#">Quận Long Biên</a></li>
+                                    <li><a href="#">Quận Hoàn Kiếm</a></li>
+                                    <li><a href="#">Quận Đống Đa</a></li>
+                                    <li><a href="#">Quận Ba Đình</a></li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="more">Xem thêm...</a>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="item-heading">
+                                Lọc theo tên đường
+                            </div>
+
+                            <div class="item-content">
+                                <ul>
+                                    <li><a href="#">Sunshine  - Phan Thiết, Long Biên</a></li>
+                                    <li><a href="#">The Pride - Tố Hữu, Hà Đông</a></li>  
+                                    <li><a href="#">Lotte Center</a></li> 
+                                    <li><a href="#">Keangnam Hanoi Landmark Tower</a></li> 
+                                    <li><a href="#">Petrovietnam Tower</a></li> 
+                                    <li><a href="#">Charmvit Grand Plaza</a></li> 
+                                    <li><a href="#">Crown Plaza Complex</a></li> 
+                                    <li><a href="#">Indochina Plaza Hanoi</a></li> 
+                                    <li><a href="#">Petrovietnam Tower</a></li> 
+                                </ul> 
+                            </div>
+
+                            <a href="#" class="more">Xem thêm...</a>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="item-heading">
+                                Lọc theo khoảng giá thuê/tháng
+                            </div>
+
+                            <div class="item-content">
+                                <ul>
+                                    <li><a href="#">< 10 triệu</a></li>
+                                    <li><a href="#">10-15 triệu</a></li>
+                                    <li><a href="#">15-20 triệu</a></li>
+                                    <li><a href="#">20-30 triệu</a></li>
+                                    <li><a href="#">30- 50 triệu</a></li>
+                                    <li><a href="#">50- 80 triệu</a></li>
+                                    <li><a href="#">80-100 triệu</a></li>
+                                    <li><a href="#">100-200 triệu</a></li>
+                                    <li><a href="#">200-300 triệu</a></li>
+                                    <li><a href="#">300 -500 triệu</a></li>
+                                    <li><a href="#">> 500 triệu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="item-heading">
+                                Lọc theo diện tích
+                            </div>
+
+                            <div class="item-content">
+                                <ul>
+                                    <li><a href="#">< 30 m2</a></li>
+                                    <li><a href="#">30 - 50 m2</a></li>
+                                    <li><a href="#">50 - 80 m2</a></li>
+                                    <li><a href="#">80 - 100 m2</a></li>
+                                    <li><a href="#">100 - 150 m2</a></li>
+                                    <li><a href="#">150 - 200 m2</a></li>
+                                    <li><a href="#">200 - 250 m2</a></li>
+                                    <li><a href="#">250 - 300 m2</a></li>
+                                    <li><a href="#">300 - 500 m2</a></li>
+                                    <li><a href="#">> 500 m2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hn-office-keyword">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="keyword-holder">
+                <div class="keyword-heading">
+                    Tìm kiếm theo từ khóa
+                </div>
+
+                <div class="keyword-main">
+                    <a href="#" class="keyword-item">
+                        Cho thuê văn phòng tại Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng đẹp cho thuê Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng cho thuê ở HN
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn Phòng cho thuê tại Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng cho thuê giá rẻ
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng Hà Nội cho thuê
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="footer-holder">
+                <div class="footer-logo">
+                    <img src="./images/footer-logo.png" alt="footer-logo">
+                </div>
+
+                <div class="footer-content">
+                    <div class="content-item">
+                        <div class="item-heading item-company">
+                            ĐÔI NÉT VỀ CÔNG TY  
+                        </div>
+
+                        <div class="item-company-name">
+                            Công ty TNHH Leadsoft
+                        </div>
+
+                        <div class="item-company-address">
+                            <div class="icon-holder">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            
+                            <div class="address-holder">
+                                <p>
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Quận Thanh Xuân, Thành phố Hà Nội. 
+                                </p>
+    
+                                <p id="p2">
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Nguyễn Xiển, Q. Thanh Xuân, Thành phố Hà Nội.
+                                </p>     
+                            </div>
+                        </div>
+
+                        <div class="item-company-contact">
+                            <div class="contact-number">
+                                <p><i class="fas fa-phone-alt"></i> (08) 0909 0099  -  090 099 0909</p>
+                            </div>
+
+                            <div class="contact-social">
+                                <img src="./images/social-contact.png" alt="social-contact">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo đường
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Duy Tân</a>
+                            <a href="#">Cầu Giấy</a>
+                            <a href="#">Phạm Hùng</a>
+                            <a href="#">Bà Triệu</a>
+                            <a href="#">Tố Hữu</a>
+                            <a href="#" class="another-road">Các đường khác</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo quận
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Quận Thanh Xuân</a>
+                            <a href="#">Quận Đống Đa</a>
+                            <a href="#">Quận Nam Từ Liêm</a>
+                            <a href="#">Quận Hà Đông</a>
+                            <a href="#">Quận Cầu Giấy</a>
+                            <a href="#">Quận Bắc Từ Liêm</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            Tổng đài hỗ trợ
+                        </div>
+
+                        <div class="customer-care">
+                            <p><i class="fas fa-headphones-alt"></i>Tổng đài CSKH: (08) 0909 0909</p>
+                            <a href="mailto:"><i class="far fa-envelope-open"></i>webdemo@gmail.com</a>
+                        </div>
+
+                        <div class="customer-form">
+                            <p>Đăng ký ngay để nhận thông tin</p>
+                            <form>
+                                <input type="text" placeholder="Nhập email của bạn">
+                                <input type="submit" class="btn-send" value="Gửi">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    Được phát triển bởi <span>LEADSOFT</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/60c085dbff.js" crossorigin="anonymous"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>

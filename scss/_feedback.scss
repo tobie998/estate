@@ -1,0 +1,170 @@
+.feedback {
+    font-family: 'Manrope', sans-serif;
+    margin: 2rem 0;
+
+    .feedback-holder {
+
+        .feedback-heading {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .feedback-content {
+
+            .content-item {
+                margin-bottom: 2rem;
+
+                .content-customer {
+                    margin-bottom: 1rem;
+
+                    .img-holder {
+                        width: 50%;
+                        margin: 0 auto;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .customer-name {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        text-align: center;
+                        margin: 0.5rem 0;
+                    }
+                }
+
+                .content-details {
+                    text-align: center;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    line-height: 1.5rem;
+                    padding: 1.5rem;
+                    color: #fff;
+                    background-color: rgba(25, 54, 102, 0.82);
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .feedback {
+        font-family: 'Manrope', sans-serif;
+        margin: 3rem 0;
+    
+        .feedback-holder {
+    
+            .feedback-heading {
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .feedback-content {
+    
+                .content-item {
+                    display: flex;
+                    align-items: center;
+    
+                    .content-customer {
+                        margin-bottom: 1rem;
+                        margin-right: 0.8rem;
+                        flex: 0 0 35%;
+    
+                        .img-holder {
+                            width: 50%;
+                            margin: 0 auto;
+    
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        .customer-name {
+                            font-size: 1rem;
+                            font-weight: 700;
+                            text-align: center;
+                            margin: 0.5rem 0;
+                            margin-top: 2rem;
+                        }
+                    }
+    
+                    .content-details {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        line-height: 1.5rem;
+                        padding: 2rem;
+                        color: #fff;
+                        background-color: rgba(25, 54, 102, 0.82);
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .feedback {
+        font-family: 'Manrope', sans-serif;
+        margin-bottom: 4rem;
+    
+        .feedback-holder {
+    
+            .feedback-heading {
+                font-size: 2rem;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .feedback-content {
+    
+                .content-item {
+                    display: flex;
+                    align-items: center;
+    
+                    .content-customer {
+                       margin: 2rem 1rem 1rem 0;
+                        flex: 0 0 30%;
+    
+                        .img-holder {
+                            width: 50%;
+                            margin: 0 auto;
+    
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        .customer-name {
+                            font-size: 1rem;
+                            font-weight: 700;
+                            text-align: center;
+                            margin: 0.5rem 0;
+                            margin-top: 2rem;
+                        }
+                    }
+    
+                    .content-details {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        line-height: 2.5rem;
+                        padding: 2.5rem;
+                        color: #fff;
+                        background-color: rgba(25, 54, 102, 0.82);
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

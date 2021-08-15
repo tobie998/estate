@@ -1,0 +1,473 @@
+.contact-us-content {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+
+    .content-holder {
+
+        .content-form {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+
+            .form-heading {
+                margin-bottom: 1rem;
+                
+                .heading-sub {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    font-style: italic;
+                    color: #000;
+                    margin-bottom: 0.2rem;
+                }
+
+                .heading-main {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #193666;
+                }
+            }
+
+            .form-main {
+
+                .main-left {
+
+                    label {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+
+                        span {
+                            color: red;
+                        }
+                    }
+
+                    input {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                .main-right {
+
+                    label {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                    }
+
+                    textarea {
+                        width: 100%;
+                        height: 25vh;
+                    }
+
+                    .btn-send {
+                        border: none;
+                        outline: none;
+                        padding: 0.3rem 0;
+                        width: 100%;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color: #fff;
+                        background: #193666;
+                        box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.24);
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+
+        .content-info {
+
+            .info-heading {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #193666;
+                margin-bottom: 1rem;
+            }
+
+            .info-main {
+
+                .main-text {
+                    display: block;
+                    text-decoration: none;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: #484848;
+                    margin-bottom: 0.5rem;
+
+                    i {
+                        margin-right: 0.5rem;
+                    }
+                }
+
+                .main-text-1 {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: #484848;
+                    text-align: justify;
+                    line-height: 1.875rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us-content {
+        margin-bottom: 1rem;
+    
+        .content-holder {
+    
+            .content-form {
+                margin-bottom: 1rem;
+    
+                .form-heading {
+                    margin-bottom: 1rem;
+                    
+                    .heading-sub {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        font-style: italic;
+                        color: #000;
+                        margin-bottom: 0.2rem;
+                    }
+    
+                    .heading-main {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: #193666;
+                    }
+                }
+    
+                .form-main {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 1rem;
+    
+                    .main-left {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+    
+                            span {
+                                color: red;
+                            }
+                        }
+    
+                        input {
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 1rem;
+                            padding: 0.3rem 0;
+                        }
+                    }
+    
+                    .main-right {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+                        }
+    
+                        textarea {
+                            width: 100%;
+                            height: 20vh;
+                        }
+    
+                        .btn-send {
+                            border: none;
+                            outline: none;
+                            padding: 0.5rem 0;
+                            width: 100%;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: #193666;
+                            box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.24);
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+    
+            .content-info {
+    
+                .info-heading {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #193666;
+                    margin-bottom: 1rem;
+                }
+    
+                .info-main {
+    
+                    .main-text {
+                        display: block;
+                        text-decoration: none;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        margin-bottom: 0.5rem;
+    
+                        i {
+                            margin-right: 0.5rem;
+                        }
+                    }
+    
+                    .main-text-1 {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        text-align: justify;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .contact-us-content {
+        margin-bottom: 3rem;
+    
+        .content-holder {
+            display: grid;
+            grid-template-columns: 55% 45%;
+            grid-gap: 2rem;
+
+            .content-form {
+                margin-bottom: 1rem;
+    
+                .form-heading {
+                    margin-bottom: 1rem;
+                    
+                    .heading-sub {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        font-style: italic;
+                        color: #000;
+                        margin-bottom: 0.2rem;
+                    }
+    
+                    .heading-main {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: #193666;
+                    }
+                }
+    
+                .form-main {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 1rem;
+    
+                    .main-left {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+    
+                            span {
+                                color: red;
+                            }
+                        }
+    
+                        input {
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 1rem;
+                            padding: 0.3rem 0;
+                        }
+                    }
+    
+                    .main-right {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+                        }
+    
+                        textarea {
+                            width: 100%;
+                            height: 24vh;
+                        }
+    
+                        .btn-send {
+                            border: none;
+                            outline: none;
+                            padding: 0.5rem 0;
+                            width: 100%;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: #193666;
+                            box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.24);
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+    
+            .content-info {
+    
+                .info-heading {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #193666;
+                    margin-bottom: 3rem;
+                    text-align: center;
+                }
+    
+                .info-main {
+    
+                    .main-text {
+                        display: block;
+                        text-decoration: none;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        margin-bottom: 0.5rem;
+    
+                        i {
+                            margin-right: 0.5rem;
+                        }
+                    }
+
+                    a:hover {
+                        color: #193666;
+                        font-weight: 700;
+                    }
+    
+                    .main-text-1 {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        text-align: justify;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contact-us-content {
+        margin-bottom: 3rem;
+    
+        .content-holder {
+            display: grid;
+            grid-template-columns: 55% 45%;
+            grid-gap: 2rem;
+
+            .content-form {
+                margin-bottom: 1rem;
+    
+                .form-heading {
+                    margin-bottom: 1rem;
+                    
+                    .heading-sub {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        font-style: italic;
+                        color: #000;
+                        margin-bottom: 0.2rem;
+                    }
+    
+                    .heading-main {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: #193666;
+                    }
+                }
+    
+                .form-main {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 1rem;
+    
+                    .main-left {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+    
+                            span {
+                                color: red;
+                            }
+                        }
+    
+                        input {
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 1rem;
+                            padding: 0.3rem 0;
+                        }
+                    }
+    
+                    .main-right {
+    
+                        label {
+                            font-size: 0.875rem;
+                            font-weight: 400;
+                        }
+    
+                        textarea {
+                            width: 100%;
+                            height: 12vh;
+                        }
+    
+                        .btn-send {
+                            border: none;
+                            outline: none;
+                            padding: 0.5rem 0;
+                            width: 100%;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: #193666;
+                            box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.24);
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+    
+            .content-info {
+    
+                .info-heading {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #193666;
+                    margin-bottom: 3rem;
+                }
+    
+                .info-main {
+    
+                    .main-text {
+                        display: block;
+                        text-decoration: none;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        margin-bottom: 0.5rem;
+    
+                        i {
+                            margin-right: 0.5rem;
+                        }
+                    }
+    
+                    .main-text-1 {
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #484848;
+                        text-align: justify;
+                        line-height: 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+}

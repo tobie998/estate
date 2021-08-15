@@ -1,0 +1,183 @@
+.office-by-district {
+    margin: 1rem 0;
+
+    .district-holder {
+
+        .district-heading {
+            font-family: 'Mulish', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .district-content {
+            margin-bottom: 1rem;
+
+            .item {
+                padding-bottom: 2rem;
+                margin-bottom: 1.5rem;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 1px 0 5px 0 #00000055;
+
+               a {
+                   text-decoration: none;
+
+                   .item-heading {
+                        font-family: 'Arimo', sans-serif;
+                        font-size: 0.8rem;
+                        color: #000;
+                        font-weight: 700;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding: 0.8rem 0 1rem;
+                    }
+
+                    .img-holder {
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .district-btn {
+            text-align: center;
+            font-family: 'Arimo', sans-serif;
+
+            button {
+                outline: none;
+                text-transform: uppercase;
+                background-color: #193666;
+                border: 1px solid #193666;
+                color: #fff;
+                padding: 0.5rem 1.1rem;
+                font-size: 0.7rem;
+                border-radius: 3.125rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .office-by-district {
+
+        .district-holder {
+    
+            .district-content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1rem;
+
+                .item {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .office-by-district {
+        margin: 2rem 0;
+
+        .district-holder {
+
+            .district-heading {
+                font-size: 1.5rem;
+            }
+    
+            .district-content {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 2rem;
+                margin-bottom: 2rem;
+
+                .item {
+                    box-shadow: 2px 1px 5px 0 #00000055;
+
+                    a {
+
+                        .item-heading {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .item:hover {
+                    transform: scale(1.05);
+                    transition: transform 0.3s ease-in-out;
+                }
+            }
+
+            .district-btn {
+
+                button {
+                    font-size: 0.875rem;
+                }
+
+                button:hover {
+                    border: 1px solid #193666;
+                    color: #193666;
+                    background-color: #fff;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .office-by-district {
+        margin-bottom: 4rem;
+
+        .district-holder {
+
+            .district-heading {
+                font-size: 1.5rem;
+            }
+    
+            .district-content {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 2rem;
+                margin-bottom: 2rem;
+
+                .item {
+                    box-shadow: 2px 1px 5px 0 #00000055;
+
+                    a {
+
+                        .item-heading {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .item:hover {
+                    transform: scale(1.05);
+                    transition: transform 0.3s ease-in-out;
+                }
+            }
+
+            .district-btn {
+
+                button {
+                    font-size: 0.875rem;
+                }
+
+                button:hover {
+                    border: 1px solid #193666;
+                    color: #193666;
+                    background-color: #fff;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+
+    .header-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-holder {
+
+            img { 
+                width: 100%;
+            }
+        }
+
+        .nav-bar {
+            position: relative;
+
+            .menu-btn {
+                font-size: 1.5rem;
+            }
+
+            .mobile-nav {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 60%;
+                height: 100vh;
+                background-color: #fff;
+                padding-left: 1rem;
+                transition: right 0.8s ease;
+                z-index: 3;
+
+                .close-btn {
+                    font-size: 1.5rem;
+                }
+
+                ul {
+                    margin-top: 2rem;
+
+                    li {
+                        list-style: none;
+                        margin-bottom: 0.8rem;
+
+                        a {
+                            text-decoration: none;
+                            font-size: 1rem;
+                            color: #313132;
+                        }
+
+                        .active {
+                            color: #193666;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+            }
+
+            .mobile-active {
+                right: 0;
+                transition: right 1s ease;
+            }
+
+            .desktop-nav {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .header {
+
+        .header-holder {
+    
+            .nav-bar {
+                margin-top: 1rem;
+    
+                .menu-btn {
+                   display: none;
+                }
+    
+                .mobile-nav {
+                   display: none;
+                }
+    
+                .desktop-nav {
+                    display: block;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        li {
+                            list-style: none;
+                            vertical-align: middle;
+
+                            a {
+                                font-size: 1.1rem;
+                                color: #313132;
+                                text-decoration-color: #313132;
+                            }
+
+                            .active {
+                                color: #193666;
+                                font-weight: 700;
+                            }
+
+                            a:hover {
+                                color: #193666;
+                                font-weight: 700;
+                                text-decoration: none;
+                            }
+                        }
+
+                        li:not(last-child) {
+                            margin-right: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

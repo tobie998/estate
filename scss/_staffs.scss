@@ -1,0 +1,269 @@
+.staffs {
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+
+    .staffs-holder {
+
+        .staffs-heading {
+
+            h5 {
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .heading-description {
+                font-size: 1rem;
+                font-size: 300;
+                color: #484848;
+                text-align: center;
+            }
+        }
+
+        .staffs-slider {
+            position: relative;
+            margin: 1rem 0 4rem;
+
+            .swiper-container {
+
+                .swiper-wrapper {
+
+                    .swiper-slide {
+
+                        .staff-item {
+
+                            .img-holder {
+                                width: 80%;
+                                margin: 0 auto;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            .item-text {
+                                text-align: center;
+
+                                .text-name {
+                                    font-size: 1.25rem;
+                                    font-weight: 700;
+                                    margin-bottom: 0rem;
+                                }
+
+                                .text-title {
+                                    font-size: 1rem;
+                                    font-size: 300;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .btn {
+                    font-size: 1.5rem;
+                    position: absolute;
+                    top: 35%;
+                    color: #39527B;
+                    z-index: 99;
+                }
+
+                .btn-next {
+                    right: -5%;
+                }
+
+                .btn-prev {
+                    left: -5%;
+                }
+            }
+        }
+
+        .staffs-slogan {
+            text-align: center;
+            font-size: 0.9375rem;
+            font-weight: 200;
+            color: #484848;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .staffs {
+        margin-bottom: 3rem;
+
+        .staffs-holder {
+    
+            .staffs-heading {
+    
+                h5 {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    text-align: center;
+                }
+    
+                .heading-description {
+                    font-size: 1rem;
+                    font-size: 300;
+                    color: #484848;
+                    text-align: center;
+                }
+            }
+    
+            .staffs-slider {
+                position: relative;
+                margin: 1rem 0 4rem;
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .staff-item {
+    
+                                .img-holder {
+                                    width: 100%;
+                                    margin: 0 auto;
+    
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+    
+                                .item-text {
+                                    text-align: center;
+    
+                                    .text-name {
+                                        font-size: 1.25rem;
+                                        font-weight: 700;
+                                        margin-bottom: 0rem;
+                                    }
+    
+                                    .text-title {
+                                        font-size: 1rem;
+                                        font-size: 300;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        font-size: 1.5rem;
+                        position: absolute;
+                        top: 20%;
+                        color: #39527B;
+                        z-index: 99;
+                    }
+    
+                    .btn-next {
+                        right: -2%;
+                    }
+    
+                    .btn-prev {
+                        left: -2%;
+                    }
+                }
+            }
+    
+            .staffs-slogan {
+                text-align: center;
+                font-size: 0.9375rem;
+                font-weight: 200;
+                color: #484848;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .staffs {
+    
+        .staffs-holder {
+    
+            .staffs-heading {
+    
+                h5 {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-align: center;
+                }
+    
+                .heading-description {
+                    width: 75%;
+                    margin: 0 auto;
+                    font-size: 1.125rem;
+                    font-size: 300;
+                    color: #484848;
+                    text-align: center;
+                }
+            }
+    
+            .staffs-slider {
+                position: relative;
+                margin: 2rem 0 4rem;
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            .staff-item {
+    
+                                .img-holder {
+                                    width: 95%;
+                                    margin: 0 auto;
+    
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+    
+                                .item-text {
+                                    text-align: center;
+    
+                                    .text-name {
+                                        font-size: 1.25rem;
+                                        font-weight: 700;
+                                        margin-bottom: 0rem;
+                                    }
+    
+                                    .text-title {
+                                        font-size: 1rem;
+                                        font-size: 300;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        font-size: 2rem;
+                        position: absolute;
+                        top: 30%;
+                        color: #39527B;
+                        z-index: 99;
+                    }
+    
+                    .btn-next {
+                        right: 0;
+                    }
+    
+                    .btn-prev {
+                        left: -1%;
+                    }
+                }
+            }
+    
+            .staffs-slogan {
+                text-align: center;
+                font-size: 1.125rem;
+                font-weight: 200;
+                color: #484848;
+            }
+        }
+    }
+}

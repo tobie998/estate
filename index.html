@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./scss/style.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                
+</head>
+<body>
+    <section class="sub-header">
+        <div class="container container-sm container-md container-lg container-xl">
+           <div class="sub-header-holder">
+                <div class="sub-header-info">
+                    <a href="mailto:" class="info info-mail">
+                        <i class="lar la-envelope-open"></i>
+                        <div>webdemo@gmail.com</div>
+                    </a>
+        
+                    <a href="tel:" class="info info-number">
+                        <i class="las la-phone"></i>
+                        <div>(08) 0909 0909</div>
+                    </a>
+                </div>    
+        
+                <div class="sub-header-address">
+                    <div class="icon-holder">
+                        <img src="./images/location.png" alt="Location icon">
+                    </div>
+
+                    <div class="content">Địa chỉ: Nguyễn Xiển - Thanh Xuân - Hà Nội</div>
+                </div>
+           </div>
+
+           <div class="overlay"></div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="header-holder">
+                <div class="logo-holder">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+    
+                <nav class="nav-bar">
+                    <div class="menu-btn" id="open-menu">
+                        <i class="las la-bars"></i>
+                    </div>
+    
+                    <div class="mobile-nav">
+                        <div class="close-btn" id="close-menu">
+                            <i class="las la-times"></i>
+                        </div>
+    
+                        <ul>
+                            <li><a href="index.html" class="active">Trang chủ</a></li>
+                            <li><a href="hanoi-office.html">Văn phòng Hà Nội</a></li>
+                            <li><a href="full-sv-office.html">Văn phòng trọn gói</a></li>
+                            <li><a href="ground.html">Mặt bằng sàn</a></li>
+                            <li><a href="contact-us.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="desktop-nav">
+                        <ul>
+                            <li><a href="index.html" class="active">Trang chủ</a></li>
+                            <li><a href="hanoi-office.html">Văn phòng Hà Nội</a></li>
+                            <li><a href="full-sv-office.html">Văn phòng trọn gói</a></li>
+                            <li><a href="ground.html">Mặt bằng sàn</a></li>
+                            <li><a href="contact-us.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="search-office">
+        <div class="overlay-bg">
+            <div class="container container-sm container-md container-lg container-xl">
+                <div class="search-office-holder">
+                    <div class="search-office-header">Tìm kiếm văn phòng phù hợp với doanh nghiệp của bạn</div>
+                    <div class="search-office-tab">
+                        <div class="btn-holder">
+                            <button class="tab-btn tab-btn-active" data-id="office-for-lease">Văn phòng cho thuê</button>
+                            <button class="tab-btn" data-id="office-for-sale">Văn phòng bán</button>
+                        </div>
+     
+                        <div class="form-holder form-holder-active"  id="office-for-lease">
+                            <div class="form-holder-1">
+                                <div class="office-type">
+                                    <i class="las la-city"></i>
+                                    <select name="office-type" id="office-type">
+                                        <option value="Loại văn phòng">Loại văn phòng</option>
+                                    </select>
+                                </div>
+                                <input type="text" placeholder="Tìm kiếm khu vực địa điểm">
+                                <button>Tìm kiếm</button>
+                            </div>
+    
+                            <div class="form-holder-2">
+                                <div class="select-holder">
+                                    <select name="district" id="distric">
+                                        <option value="Theo quận">Theo Quận</option>
+                                    </select>
+    
+                                    <select name="street" id="street">
+                                        <option value="Theo đường">Theo Đường</option>
+                                    </select>
+    
+                                    <select name="price" id="price">
+                                        <option value="Mức giá">Mức Giá</option>
+                                    </select>
+    
+                                    <select name="square" id="square">
+                                        <option value="Diện tích">Diện Tích</option>
+                                    </select>
+                                </div>
+    
+                                <button class="delete-btn">
+                                    Xóa 
+                                    <img src="./images/async-icon.png" alt="async-icon">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="form-holder"  id="office-for-sale">
+                            <div class="form-holder-1">
+                                <div class="office-type">
+                                    <i class="las la-city"></i>
+                                    <select name="office-type" id="office-type">
+                                        <option value="Loại văn phòng">Loại văn phòng bán</option>
+                                    </select>
+                                </div>
+                                <input type="text" placeholder="Tìm kiếm khu vực địa điểm">
+                                <button>Tìm kiếm</button>
+                            </div>
+    
+                            <div class="form-holder-2">
+                                <div class="select-holder">
+                                    <select name="district" id="distric">
+                                        <option value="Theo quận">Theo Quận</option>
+                                    </select>
+    
+                                    <select name="street" id="street">
+                                        <option value="Theo đường">Theo Đường</option>
+                                    </select>
+    
+                                    <select name="price" id="price">
+                                        <option value="Mức giá">Mức Giá</option>
+                                    </select>
+    
+                                    <select name="square" id="square">
+                                        <option value="Diện tích">Diện Tích</option>
+                                    </select>
+                                </div>
+    
+                                <button class="delete-btn">
+                                    Xóa 
+                                    <img src="./images/async-icon.png" alt="async-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="text-holder">
+                Officespace hiện đang là đối tác hơn 400 tòa văn phòng cho thuê tại Hà Nội để Quý khách hàng có lựa chọn văn phòng làm việc phù hợp nhất. Với kinh nghiệm hơn 10 năm trong lĩnh vực cho thuê văn phòng cùng đội ngũ chuyên viên chuyên nghiệp, tận tâm, Officespace sẽ giúp quý khách tìm được không gian làm việc lý tưởng nhất
+            </div>
+        </div>
+    </section>
+
+    <section class="office-by-district">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="district-holder">
+                <div class="district-heading">
+                    văn phòng ở hà nội theo quận
+                </div>
+
+                <div class="district-content">
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận thanh xuân
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-1.png" alt="building-1">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận hà đông
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-2.png" alt="building-2">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận ba đình
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-3.png" alt="building-3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận bắc từ liêm
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-3.png" alt="building-3">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận nam từ liêm
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-4.png" alt="building-4">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-heading">
+                                <i class="fas fa-map-marker-alt"></i>
+                                quận đống đa
+                            </div>
+    
+                            <div class="img-holder">
+                                <img src="./images/building-5.png" alt="building-5">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="district-btn">
+                    <button>xem thêm...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-by-street">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="office-street-holder">
+                <div class="office-street-heading">
+                    <h5>
+                        Văn phòng ở Hà Nội theo đường
+                    </h5>
+                </div>
+
+                <div class="office-street-slider">
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-1.png" alt="office-street-img-1">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Chính 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-2.png" alt="office-street-img-2">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Trãi 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-3.png" alt="office-street-img-3">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Trần Duy Hưng 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-2.png" alt="office-street-img-2">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Trãi 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-1.png" alt="office-street-img-1">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Chính 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn btn-next"><i class="fas fa-angle-double-right"></i></div>
+                        <div class="btn btn-prev"><i class="fas fa-angle-double-left"></i></div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choose-us">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="choose-us-holder">
+                <div class="choose-us-heading">
+                    <h5>
+                        Vì sao chọn chúng tôi ?
+                    </h5>
+                </div>
+
+                <div class="choose-us-content">
+                    <div class="content-item">
+                        <div class="logo-holder">
+                            <img src="./images/choose-us-img-1.png" alt="choose-us-img-1">
+                        </div>
+
+                        <h6 class="item-title">
+                            400+ Tòa nhà
+                        </h6>
+
+                        <p class="item-content">
+                            Đối tác cho thuê hơn 400 tòa nhà hạng A, B, C chuyên nghiệp tại Hà Nội, cung cấp thông tin văn phòng chính xác và ngay lập tức.
+                        </p>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="logo-holder">
+                            <img src="./images/choose-us-img-2.png" alt="choose-us-img-2">
+                        </div>
+
+                        <h6 class="item-title">
+                            Uy tín & chuyên nghiệp
+                        </h6>
+
+                        <p class="item-content">
+                            Miễn phí tư vấn 24/7.
+                            MIỄN PHÍ 100% phí tư vấn cho mọi khách thuê văn phòng. Hỗ trợ liên tục 24/7, quy trình nhanh chóng.
+                        </p>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="logo-holder">
+                            <img src="./images/choose-us-img-3.png" alt="choose-us-img-3" class="img-3">
+                        </div>
+
+                        <h6 class="item-title">
+                            10+ năm kinh nghiệm
+                        </h6>
+
+                        <p class="item-content">
+                            Đội ngũ của Maison Office là những nhân sự nhiều năm kinh nghiệm, đảm bảo sẽ hỗ trợ cho bạn tốt nhất trong mọi bước công việc tìm kiếm, xem xét
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="staffs">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="staffs-holder">
+                <div class="staffs-heading">
+                    <h5>
+                        Đội ngũ chuyên viên
+                    </h5>
+
+                    <p class="heading-description">
+                        Chuyên viên Officespace đã sẵn sàng hỗ trợ Quý khách tìm văn phòng cho thuê ưng ý. Hãy nói cho chúng tôi biết nhu cầu của quý khách là gì?
+                    </p>
+                </div>
+
+                <div class="staffs-slider">
+                    <div class="swiper-container staffSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-1.png" alt="staff-img-1">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Vũ Thị Hằng</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-2.png" alt="staff-img-2">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Hoàng Văn Long</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-3.png" alt="staff-img-3">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Vũ Cát Tường</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-4.png" alt="staff-img-4">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Vũ Thị Hằng</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-2.png" alt="staff-img-2">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Hoàng Văn Long</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-1.png" alt="staff-img-1">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Vũ Thị Hằng</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="staff-item">
+                                    <div class="img-holder">
+                                        <img src="./images/staff-img-3.png" alt="staff-img-3">
+                                    </div>
+
+                                    <div class="item-text">
+                                        <h6 class="text-name">Vũ Cát Tường</h6>
+                                        <p class="text-title">Chuyên viên tư vấn</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn btn-next"><i class="fas fa-angle-double-right"></i></div>
+                        <div class="btn btn-prev"><i class="fas fa-angle-double-left"></i></div>
+                    </div>
+                </div>
+                
+
+                <div class="staffs-slogan">
+                    “Sự hài lòng của quý khách là niềm vui của chúng tôi”
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="process-overlay">
+            <div class="container container-sm container-md container-lg container-xl">
+                <div class="process-holder">
+                    <div class="process-left">
+                        <div class="left-heading">
+                            <h5>
+                                QUY TRÌNH TƯ VẤN TẠI LEADSOFT
+                            </h5>
+    
+                            <p class="heading-description">
+                                Chúng tôi mang tới quy trình tư vấn cho thuê văn phòng chuyên nghiệp hàng đầu!
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="process-right">
+                        <div class="right-item">
+                            <div class="number">1</div>
+                            <div class="item-content">
+                                <h6>Tiếp nhận nhu cầu</h6>
+                                <p>Tiếp nhận nhu cầu của khách hàng, tư vấn thông tin cơ bản để khách hàng định hướng tìm văn phòng phù hợp với nhu cầu và ngân sách tài chính.</p>
+                            </div>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="number">2</div>
+                            <div class="item-content">
+                                <h6>Gửi tài liệu & báo giá</h6>
+                                <p>Dựa trên những yêu cầu của khách hàng, Officespace gửi tài liệu và báo giá những văn phòng cho thuê phù hợp để khách hàng so sánh, lựa chọn.</p>
+                            </div>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="number">3</div>
+                            <div class="item-content">
+                                <h6>Tham quan mặt bằng & Tư vấn chuyên sâu</h6>
+                                <p>Hỗ trợ khách hàng xem văn phòng trực tiếp. Đánh giá ưu nhược điểm tòa nhà & Tư vấn chuyên sâu để khách hàng chọn được văn phòng phù hợp nhất.</p>
+                            </div>
+                        </div>
+
+                        <div class="right-item">
+                            <div class="number">4</div>
+                            <div class="item-content">
+                                <h6>Hỗ trợ đàm phán hợp đồng</h6>
+                                <p>Cung cấp thông tin thị trường, giải thích và phân tích điều khoản hợp đồng, hỗ trợ khách hàng đàm phán để đạt được nhiều ưu đãi & tối ưu lợi ích.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="feedback-holder">
+                <div class="feedback-heading">
+                    Phản hồi của khách hàng
+                </div>
+
+                <div class="feedback-content">
+                    <div class="content-item">
+                        <div class="content-customer">
+                            <div class="img-holder">
+                                <img src="./images/feedback-img-1.png" alt="feedback-img-1">
+                            </div>
+    
+                            <div class="customer-name">Bà Nguyễn Thị Bích Phương </div>
+                        </div>
+    
+                        <div class="content-details">
+                            "Khi làm việc với Officespace tôi tin tưởng và hài lòng từ khâu tư vấn cho thuê văn phòng, chọn lọc sản phẩm đến khi đi xem văn phòng thực tế. Từ bước đi xem văn phòng cho thuê đến khi ký kết hợp đồng thuê và đàm phán giá, chuyên viên của Officespace đã rất nhiệt tình hỗ trợ để chúng tôi nhanh chóng tìm được mặt bằng phù hợp."
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="content-customer">
+                            <div class="img-holder">
+                                <img src="./images/feedback-img-2.png" alt="feedback-img-1">
+                            </div>
+    
+                            <div class="customer-name">Ông Nguyễn Văn Long </div>
+                        </div>
+    
+                        <div class="content-details">
+                            "Khi làm việc với Officespace tôi tin tưởng và hài lòng từ khâu tư vấn cho thuê văn phòng, chọn lọc sản phẩm đến khi đi xem văn phòng thực tế. Từ bước đi xem văn phòng cho thuê đến khi ký kết hợp đồng thuê và đàm phán giá, chuyên viên của Officespace đã rất nhiệt tình hỗ trợ để chúng tôi nhanh chóng tìm được mặt bằng phù hợp."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="partner-holder">
+                <div class="partner-heading">
+                    ĐỐI TÁC & KHÁCH HÀNG
+                </div>
+
+                <div class="partner-slider">
+                    <div class="swiper-container partnerSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/partner-img-1.png" alt="partner-img-1">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/partner-img-2.png" alt="partner-img-2">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/partner-img-3.png" alt="partner-img-3">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/partner-img-4.png" alt="partner-img-4">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/partner-img-5.png" alt="partner-img-5">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn btn-next"><i class="fas fa-angle-double-right"></i></div>
+                        <div class="btn btn-prev"><i class="fas fa-angle-double-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="footer-holder">
+                <div class="footer-logo">
+                    <img src="./images/footer-logo.png" alt="footer-logo">
+                </div>
+
+                <div class="footer-content">
+                    <div class="content-item">
+                        <div class="item-heading item-company">
+                            ĐÔI NÉT VỀ CÔNG TY  
+                        </div>
+
+                        <div class="item-company-name">
+                            Công ty TNHH Leadsoft
+                        </div>
+
+                        <div class="item-company-address">
+                            <div class="icon-holder">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            
+                            <div class="address-holder">
+                                <p>
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Quận Thanh Xuân, Thành phố Hà Nội. 
+                                </p>
+    
+                                <p id="p2">
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Nguyễn Xiển, Q. Thanh Xuân, Thành phố Hà Nội.
+                                </p>     
+                            </div>
+                        </div>
+
+                        <div class="item-company-contact">
+                            <div class="contact-number">
+                                <p><i class="fas fa-phone-alt"></i> (08) 0909 0099  -  090 099 0909</p>
+                            </div>
+
+                            <div class="contact-social">
+                                <img src="./images/social-contact.png" alt="social-contact">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo đường
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Duy Tân</a>
+                            <a href="#">Cầu Giấy</a>
+                            <a href="#">Phạm Hùng</a>
+                            <a href="#">Bà Triệu</a>
+                            <a href="#">Tố Hữu</a>
+                            <a href="#" class="another-road">Các đường khác</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo quận
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Quận Thanh Xuân</a>
+                            <a href="#">Quận Đống Đa</a>
+                            <a href="#">Quận Nam Từ Liêm</a>
+                            <a href="#">Quận Hà Đông</a>
+                            <a href="#">Quận Cầu Giấy</a>
+                            <a href="#">Quận Bắc Từ Liêm</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            Tổng đài hỗ trợ
+                        </div>
+
+                        <div class="customer-care">
+                            <p><i class="fas fa-headphones-alt"></i>Tổng đài CSKH: (08) 0909 0909</p>
+                            <a href="mailto:"><i class="far fa-envelope-open"></i>webdemo@gmail.com</a>
+                        </div>
+
+                        <div class="customer-form">
+                            <p>Đăng ký ngay để nhận thông tin</p>
+                            <form>
+                                <input type="text" placeholder="Nhập email của bạn">
+                                <input type="submit" class="btn-send" value="Gửi">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    Được phát triển bởi <span>LEADSOFT</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/60c085dbff.js" crossorigin="anonymous"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>

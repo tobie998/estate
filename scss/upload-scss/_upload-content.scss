@@ -1,0 +1,190 @@
+.upload-content {
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+
+    .content-holder {
+
+        .content-heading {
+            padding: 1rem 0;
+            border-bottom: 1px solid #B9B9B9;
+
+            .heading-text {
+                font-size: 0.875rem;
+                font-weight: 400;
+                color: #313132;
+                margin-bottom: 0.5rem;
+            }
+
+            h6 {
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: #193666;
+            }
+        }
+
+        .content-details {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #B9B9B9;
+
+            .details-info {
+                font-size: 0.875rem;
+                font-weight: 400;
+                color: rgba(72, 72, 72, 0.72);
+                line-height: 1.3rem;
+
+                span {
+                    display: block;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #193666;
+                }
+            }
+
+            .details-share {
+                text-decoration: none;
+                font-size: 0.875rem;
+                color: #193666;
+                vertical-align: middle;
+
+                i {
+                    font-size: 1rem;
+                }
+            }
+
+            .details-save {
+                color: #193666;
+                font-size: 0.875rem;
+                cursor: pointer;
+
+                .heart-icon {
+                    font-size: 1rem;
+                }
+
+                .heart-icon::before {
+                    font-family: 'Font Awesome 5 Free';
+                    content: "\f004";
+                    font-style: normal;
+                }
+            }
+
+            .details-save-active {
+
+                .heart-icon::before {
+                    font-family: 'Font Awesome 5 Free';
+                    content: "\f004";
+                    font-style: normal;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .upload-content {
+        margin-bottom: 2rem;
+    
+        .content-holder {
+    
+            .content-heading {
+                padding: 1rem 0;
+                border-bottom: 1px solid #B9B9B9;
+    
+                .heading-text {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: #313132;
+                    margin-bottom: 0.5rem;
+                }
+    
+                h6 {
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                    color: #193666;
+                }
+            }
+    
+            .content-details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.5rem 0;
+                border-bottom: 1px solid #B9B9B9;
+    
+                .details-info {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    color: rgba(72, 72, 72, 0.72);
+                    line-height: 1.3rem;
+    
+                    span {
+                        display: block;
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        color: #193666;
+                    }
+                }
+    
+                .details-share {
+                    text-decoration: none;
+                    font-size: 0.875rem;
+                    color: #193666;
+                    vertical-align: middle;
+    
+                    i {
+                        font-size: 1rem;
+                    }
+                }
+    
+                .details-save {
+                    color: #193666;
+                    font-size: 0.875rem;
+                    cursor: pointer;
+    
+                    .heart-icon {
+                        font-size: 1rem;
+                    }
+    
+                    .heart-icon::before {
+                        font-family: 'Font Awesome 5 Free';
+                        content: "\f004";
+                        font-style: normal;
+                    }
+                }
+    
+                .details-save-active {
+    
+                    .heart-icon::before {
+                        font-family: 'Font Awesome 5 Free';
+                        content: "\f004";
+                        font-style: normal;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .upload-content {
+        margin-bottom: 2rem;
+    
+        .content-holder {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .upload-content {
+        margin-bottom: 2rem;
+    
+        .content-holder {
+            width: 62%;
+        }
+    }
+}

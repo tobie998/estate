@@ -1,0 +1,204 @@
+.lease-by-street-gallery {
+    font-family: 'Mulish', sans-serif;
+    margin: 1rem 0;
+
+    .gallery-holder {
+
+        .gallery-heading {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #193666;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .gallery-content {
+
+            .content-item {
+                position: relative;
+                box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                margin-bottom: 1rem;
+
+                a {
+
+                    img {
+                        width: 100%;
+                    }
+    
+                    span {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        color: #fff;
+                        background: rgba(0, 0, 0, 0.43);
+                        padding: 1rem 0;
+                        text-align: center;
+                        box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 0 0 5px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .lease-by-street-gallery {
+        margin: 1rem 0;
+    
+        .gallery-holder {
+    
+            .gallery-heading {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: #193666;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .gallery-content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1rem;
+    
+                .content-item {
+                    position: relative;
+                    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                    margin-bottom: 0rem;
+    
+                    a {
+    
+                        img {
+                            width: 100%;
+                        }
+        
+                        span {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: rgba(0, 0, 0, 0.43);
+                            padding: 1rem 0;
+                            text-align: center;
+                            box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 0 0 5px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lease-by-street-gallery {
+        margin: 1rem 0 3rem;
+    
+        .gallery-holder {
+    
+            .gallery-heading {
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #193666;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .gallery-content {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 1rem;
+    
+                .content-item {
+                    position: relative;
+                    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                    margin-bottom: 0rem;
+    
+                    a {
+    
+                        img {
+                            width: 100%;
+                        }
+        
+                        span {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            font-size: 1rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: rgba(0, 0, 0, 0.43);
+                            padding: 1rem 0;
+                            text-align: center;
+                            box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 0 0 5px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .lease-by-street-gallery {
+        margin-bottom: 4rem;
+        
+        .gallery-holder {
+    
+            .gallery-heading {
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #193666;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            .gallery-content {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-gap: 1.2rem;
+    
+                .content-item {
+                    position: relative;
+                    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                    margin-bottom: 0rem;
+    
+                    a {
+    
+                        img {
+                            width: 100%;
+                        }
+        
+                        span {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                            color: #fff;
+                            background: rgba(0, 0, 0, 0.43);
+                            padding: 1rem 0;
+                            text-align: center;
+                            box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 0 0 5px 5px;
+                        }
+
+                        img:hover {
+                            transform: scale(1.05);
+                            transition: all 0.5s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

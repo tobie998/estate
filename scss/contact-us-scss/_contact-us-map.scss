@@ -1,0 +1,51 @@
+.contact-us-map {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+
+    .map-holder {
+
+        .map-heading {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #193666;
+            margin-bottom: 0.5rem;
+        }
+
+        .map-main {
+
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us-map {
+        margin-bottom: 2rem;
+    
+        .map-holder {
+    
+            .map-heading {
+                font-size: 1.125rem;
+                font-weight: 700;
+                color: #193666;
+                margin-bottom: 0.5rem;
+            }
+    
+            .map-main {
+    
+                iframe {
+                    width: 100%;
+                    height: 50vh;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .contact-us-map {
+        margin-bottom: 4rem;
+    }
+}

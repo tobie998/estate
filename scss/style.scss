@@ -1,0 +1,166 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+//Font Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+//Import scss
+@import "sub-header";
+@import "header";
+@import "search-office";
+@import "text";
+@import "office-by-district";
+@import "office-by-street";
+@import "choose-us";
+@import "staffs";
+@import "process";
+@import "feedback";
+@import "partner";
+@import "footer";
+
+//Import file from hanoi-office page
+@import "./hn-office-scss/hn-office-taskbar";
+@import "./hn-office-scss/hn-office-caption";
+@import "./hn-office-scss/hn-office-main";
+@import "./hn-office-scss/hn-office-keyword";
+
+//Import file from upload page
+@import "./upload-scss/upload-gallery";
+@import "./upload-scss/upload-content";
+@import "./upload-scss/upload-details";
+
+//Import file from for-lease-by-street page
+@import "./for-lease-by-street-scss/lease-by-street-content";
+@import "./for-lease-by-street-scss/lease-by-street-gallery";
+@import "./for-lease-by-street-scss/lease-by-street-list";
+
+//Import file from contact us page
+@import "./contact-us-scss/contact-us-banner";
+@import "./contact-us-scss/contact-us-content";
+@import "./contact-us-scss/contact-us-map";
+
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Medium', sans-serif;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish', sans-serif;
+    src: url(../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo', sans-serif;
+    src: url(../fonts/Arimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope', sans-serif;
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope-Light', sans-serif;
+    src: url(../fonts/Manrope-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope-Ex-Light', sans-serif;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+}

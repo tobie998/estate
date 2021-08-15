@@ -1,0 +1,120 @@
+.upload-details {
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 0;
+
+    .details-holder {
+
+        .details-characteristic {
+            margin-bottom: 2rem;
+
+            .characteristic-heading {
+                font-size: 1.125rem;
+                font-weight: 700;
+                color: #000;
+                margin: 2rem 0;
+            }
+
+            .characteristic-content {
+                box-shadow: 3px 0px 4px 5px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                padding: 0.5rem 1rem;
+
+                .content-item {
+                    font-size: 1.125rem;
+                    counter-reset: #000;
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;
+
+                    span {
+                        display: inline;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .details-description {
+            margin-bottom: 2rem;
+
+            .description-heading {
+                font-size: 2rem;
+                color: #193666;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+
+            .content-text {
+                font-size: 0.875rem;
+                font-weight: 400;
+                color: #313132;
+                margin-bottom: 0.5rem;
+            }
+
+            .content-list {
+                font-size: 0.875rem;
+                font-weight: 400;
+                color: #313132;
+                list-style: none;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        .details-map {
+
+            .map-heading {
+                font-size: 1.125rem;
+                font-weight: 700;
+                color: #000;
+                margin: 0.5rem 0;
+            }
+
+            .map-holder {
+
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .upload-details {
+        margin: 2rem 0 3rem;
+    
+        .details-holder {
+            width: 70%;
+    
+            .details-map {
+    
+                .map-holder {
+    
+                    iframe {
+                        width: 100%;
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .upload-details {
+    
+        .details-holder {
+            width: 62%;
+    
+            .details-map {
+    
+                .map-holder {
+    
+                    iframe {
+                        width: 100%;
+                        height: 50vh;
+                    }
+                }
+            }
+        }
+    }
+}

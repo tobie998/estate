@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Tin</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./scss/style.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+</head>
+<body>
+    <section class="sub-header">
+        <div class="container container-sm container-md container-lg container-xl">
+           <div class="sub-header-holder">
+                <div class="sub-header-info">
+                    <a href="mailto:" class="info info-mail">
+                        <i class="lar la-envelope-open"></i>
+                        <div>webdemo@gmail.com</div>
+                    </a>
+        
+                    <a href="tel:" class="info info-number">
+                        <i class="las la-phone"></i>
+                        <div>(08) 0909 0909</div>
+                    </a>
+                </div>    
+        
+                <div class="sub-header-address">
+                    <div class="icon-holder">
+                        <img src="./images/location.png" alt="Location icon">
+                    </div>
+
+                    <div class="content">Địa chỉ: Nguyễn Xiển - Thanh Xuân - Hà Nội</div>
+                </div>
+           </div>
+
+           <div class="overlay"></div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="header-holder">
+                <div class="logo-holder">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+    
+                <nav class="nav-bar">
+                    <div class="menu-btn" id="open-menu">
+                        <i class="las la-bars"></i>
+                    </div>
+    
+                    <div class="mobile-nav">
+                        <div class="close-btn" id="close-menu">
+                            <i class="las la-times"></i>
+                        </div>
+    
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Văn phòng Hà Nội</a></li>
+                            <li><a href="#">Văn phòng trọn gói</a></li>
+                            <li><a href="#" class="active">Mặt bằng sàn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="desktop-nav">
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Văn phòng Hà Nội</a></li>
+                            <li><a href="#">Văn phòng trọn gói</a></li>
+                            <li><a href="#" class="active">Mặt bằng sàn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hn-office-taskbar">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="taskbar-holder">
+                <nav class="navbar mobile-taskbar">
+                    <div class="btn-holder">
+                        <button class="btn btn-for-lease btn-active">Cho thuê</button>
+                        <button class="btn btn-for-sale">Bán</button>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <i class="fas fa-chevron-circle-down"></i>
+                    </button>
+
+                    <div class="collapse narbar-collapse" id="collapsibleNavbar">
+                        <div class="input-holder">
+                            <input type="text" placeholder="Tìm kiếm địa điểm, khu vực">
+                            <i class="fas fa-search"></i>
+                        </div>
+
+                        <div class="content-holder">
+                            <div class="filter-holder">
+                                <div class="filter-item">
+                                    <div class="item-label item-label-1">
+                                        Khu vực
+                                        <i class="fas fa-sort"></i>
+                                        <p>Hà Nội</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-1">
+                                        <ul>
+                                            <li><span>Hải Phòng</span></li>
+                                            <li><span>Hải Dương</span></li>
+                                            <li><span>Hưng Yên</span></li>
+                                            <li><span>Quảng Ninh</span></li>
+                                            <li><span>Ninh Bình</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-2">
+                                        Quận
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-2">
+                                        <ul>
+                                            <li><span>Quận Cầu Giấy</span></li>
+                                            <li><span>Quận Hà Đông</span></li>
+                                            <li><span>Quận Nam Từ Liêm</span></li>
+                                            <li><span>Quận Bắc Từ Liêm</span></li>
+                                            <li><span>Quận Thanh Xuân</span></li>
+                                            <li><span>Quận Long Biên</span></li>
+                                            <li><span>Quận Hoàn Kiếm</span></li>
+                                            <li><span>Quận Đống Đa</span></li>
+                                            <li><span>Quận Ba Đình</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-3">
+                                        Đường
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-3">
+                                        <ul>
+                                            <li><span>Sunshine  - Phan Thiết, Long Biên</span></li>
+                                            <li><span>The Pride - Tố Hữu, Hà Đông</span></li>
+                                            <li><span>Lotte Center</span></li>
+                                            <li><span>Keangnam Hanoi Landmark Tower</span></li>
+                                            <li><span>Petrovietnam Tower</span></li>
+                                            <li><span>Charmvit Grand Plaza</span></li>
+                                            <li><span>Crown Plaza Complex</span></li>                                </a>
+                                            <li><span>Indochina Plaza Hanoi</span></li>
+                                            <li><span>Petrovietnam Tower</span></li>  
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-4">
+                                        Giá
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-4">
+                                        <ul>
+                                            <li><span>10-15 triệu</span></li>
+                                            <li><span>15-20 triệu</span></li>
+                                            <li><span>20-30 triệu</span></li>
+                                            <li><span>30- 50 triệu</span></li>
+                                            <li><span>50- 80 triệu</span></li>
+                                            <li><span>80-100 triệu</span></li>
+                                            <li><span>100-200 triệu</span></li>
+                                            <li><span>200-300 triệu</span></li>
+                                            <li><span>300 -500 triệu</span></li>
+                                            <li><span>> 500 triệu</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-item">
+                                    <div class="item-label item-label-5">
+                                        Diện Tích
+                                        <i class="fas fa-sort"></i>
+                                        <p>Tất Cả</p>
+                                    </div>
+        
+                                    <div class="item-dropdown-content dropdown-5">
+                                        <ul>
+                                            <li><span>< 30 m2</span></li>
+                                            <li><span>30 - 50 m2</span></li>
+                                            <li><span>50 - 80 m2</span></li>
+                                            <li><span>80 - 100 m2</span></li>
+                                            <li><span>100 - 150 m2</span></li>
+                                            <li><span>150 - 200 m2</span></li>
+                                            <li><span>200 - 250 m2</span></li>
+                                            <li><span>250 - 300 m2</span></li>
+                                            <li><span>300 - 500 m2</span></li>
+                                            <li><span>> 500 m2</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="search-btn-holder">
+                                <button class="btn-search">
+                                    Tìm kiếm
+                                </button>
+    
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="desktop-taskbar">
+                    <div class="btn-holder">
+                        <button class="btn btn-for-lease btn-active">Cho thuê</button>
+                        <button class="btn btn-for-sale">Bán</button>
+                    </div>
+
+                    
+                    <div class="input-holder">
+                        <input type="text" placeholder="Tìm kiếm địa điểm, khu vực">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                    <div class="content-holder">
+                        <div class="filter-item">
+                            <div class="item-label item-label-1">
+                                Khu vực
+                                <i class="fas fa-sort"></i>
+                                <p>Hà Nội</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-1">
+                                <ul>
+                                    <li><span>Hải Phòng</span></li>
+                                    <li><span>Hải Dương</span></li>
+                                    <li><span>Hưng Yên</span></li>
+                                    <li><span>Quảng Ninh</span></li>
+                                    <li><span>Ninh Bình</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-2">
+                                Quận
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-2">
+                                <ul>
+                                    <li><span>Quận Cầu Giấy</span></li>
+                                    <li><span>Quận Hà Đông</span></li>
+                                    <li><span>Quận Nam Từ Liêm</span></li>
+                                    <li><span>Quận Bắc Từ Liêm</span></li>
+                                    <li><span>Quận Thanh Xuân</span></li>
+                                    <li><span>Quận Long Biên</span></li>
+                                    <li><span>Quận Hoàn Kiếm</span></li>
+                                    <li><span>Quận Đống Đa</span></li>
+                                    <li><span>Quận Ba Đình</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-3">
+                                Đường
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-3">
+                                <ul>
+                                    <li><span>Sunshine  - Phan Thiết, Long Biên</span></li>
+                                    <li><span>The Pride - Tố Hữu, Hà Đông</span></li>
+                                    <li><span>Lotte Center</span></li>
+                                    <li><span>Keangnam Hanoi Landmark Tower</span></li>
+                                    <li><span>Petrovietnam Tower</span></li>
+                                    <li><span>Charmvit Grand Plaza</span></li>
+                                    <li><span>Crown Plaza Complex</span></li>                                </a>
+                                    <li><span>Indochina Plaza Hanoi</span></li>
+                                    <li><span>Petrovietnam Tower</span></li>  
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-4">
+                                Giá
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-4">
+                                <ul>
+                                    <li><span>10-15 triệu</span></li>
+                                    <li><span>15-20 triệu</span></li>
+                                    <li><span>20-30 triệu</span></li>
+                                    <li><span>30- 50 triệu</span></li>
+                                    <li><span>50- 80 triệu</span></li>
+                                    <li><span>80-100 triệu</span></li>
+                                    <li><span>100-200 triệu</span></li>
+                                    <li><span>200-300 triệu</span></li>
+                                    <li><span>300 -500 triệu</span></li>
+                                    <li><span>> 500 triệu</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter-item">
+                            <div class="item-label item-label-5">
+                                Diện Tích
+                                <i class="fas fa-sort"></i>
+                                <p>Tất Cả</p>
+                            </div>
+
+                            <div class="item-dropdown-content dropdown-5">
+                                <ul>
+                                    <li><span>< 30 m2</span></li>
+                                    <li><span>30 - 50 m2</span></li>
+                                    <li><span>50 - 80 m2</span></li>
+                                    <li><span>80 - 100 m2</span></li>
+                                    <li><span>100 - 150 m2</span></li>
+                                    <li><span>150 - 200 m2</span></li>
+                                    <li><span>200 - 250 m2</span></li>
+                                    <li><span>250 - 300 m2</span></li>
+                                    <li><span>300 - 500 m2</span></li>
+                                    <li><span>> 500 m2</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-btn-holder">
+                        <button class="btn-search">
+                            Tìm kiếm
+                        </button>
+
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-gallery">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="gallery-holder">
+                <div class="gallery-left">
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-1.png" alt="gallery-img-1">
+                    </div>
+
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-2.png" alt="gallery-img-2">
+                    </div>
+
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-3.png" alt="gallery-img-3">
+                    </div>
+
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-1.png" alt="gallery-img-1">
+                    </div>
+
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-2.png" alt="gallery-img-2">
+                    </div>
+
+                    <div class="my-slide">
+                        <img src="./images/gallery-img-3.png" alt="gallery-img-3">
+                    </div>
+
+                    <a class="btn btn-thumbnail-next"><i class="fas fa-angle-double-right"></i></a>
+                    <a class="btn btn-thumbnail-prev"><i class="fas fa-angle-double-left"></i></a>
+
+                    <div class="left-thumbnail">
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-1.png" alt="gallery-img-1">
+                        </div>
+
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-2.png" alt="gallery-img-2">
+                        </div>
+
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-3.png" alt="gallery-img-3">
+                        </div>
+
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-1.png" alt="gallery-img-1">
+                        </div>
+
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-2.png" alt="gallery-img-2">
+                        </div>
+
+                        <div class="thumbnail-item">
+                            <img src="./images/gallery-img-3.png" alt="gallery-img-3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-right">
+                    <div class="right-office-info">
+                        <div class="info-heading">
+                            Văn phòng
+                        </div>
+
+                        <div class="info-details">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Nguyễn Xiển, Thanh Xuân, Hà Nội
+                        </div>
+
+                        <div class="info-details">
+                            <i class="fab fa-stripe-s"></i>
+                            Diện tích : 100-200m2
+                        </div>
+
+                        <div class="info-details">
+                            <i class="fas fa-dollar-sign"></i>
+                            Khoảng giá: 13-15 triệu/th
+                        </div>
+                    </div>
+
+                    <div class="right-staff-info">
+                        <div class="img-holder">
+                            <img src="./images/staff-img-1.png" alt="staff-img-1">
+                        </div>
+
+                        <div class="info info-name">Vũ Hương Trà</div>
+                        <a href="tel:" class="info info-number">0999039003</a>
+                        <a href="mailto:" class="info info-mail">Gửi mail</a>
+                        <a href="#" class="info info-callback">Liên hệ lại</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-content">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="content-holder">
+                <div class="content-heading">
+                    <p class="heading-text">
+                        Cho thuê /Hà Nội /Quận Thanh Xuân/ Văn phòng
+                    </p>
+
+                    <h6>
+                        BÁN - CHO THUÊ VĂN PHÒNG QUẬN THANH XUÂN, HÀ NỘI 100m2 giá từ 15tr/tháng
+                    </h6>
+
+                    <p class="heading-text">
+                        Số 89 Ngõ 535 Nguyễn Xiển, Thanh Xuân, Hà Nội 
+                    </p>
+                </div>
+
+                <div class="content-details">
+                    <div class="details-info details-price">
+                        Mức giá:
+                        <span>32 triệu/th</span>
+                    </div>
+
+                    <div class="details-info details-square">
+                        Diện tích:
+                        <span>200m2</span>
+                    </div>
+
+                    <a href="#" class="details-share">
+                        <i class="fas fa-share-alt"></i>
+                        <span>Chia sẻ</span>
+                    </a>
+
+                    <div class="details-save">
+                        <i class="heart-icon"></i>
+                        <span>Lưu tin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-details">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="details-holder">
+                <div class="details-characteristic">
+                    <div class="characteristic-heading">
+                        ĐẶC ĐIỂM BẤT ĐỘNG SẢN
+                    </div>
+
+                    <div class="characteristic-content">
+                        <p class="content-item">
+                            Loại tin đăng:
+                            <span>Cho thuê văn phòng</span>
+                        </p>
+
+                        <p class="content-item">
+                            Địa chỉ:
+                            <span>Nguyễn Xiển, Thanh Xuân, Hà Nội</span>
+                        </p>
+
+                        <p class="content-item">
+                            Đường vào:
+                            <span>8m</span>
+                        </p>
+
+                        <p class="content-item">
+                            Tiện ích:
+                            <span>Điều hoà, chỗ để xe, thang máy,.....</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-description">
+                    <div class="description-heading">
+                        Thông tin mô tả
+                    </div>
+
+                    <div class="description-content">
+                        <p class="content-text">
+                            Chính chủ cho thuê sàn văn phòng trung tâm quận Cầu Giấy.
+                        </p>
+
+                        <p class="content-text">
+                            Địa chỉ: Số 8 Khúc Thừa Dụ (cách ngõ 60 Khúc Thừa Dụ 50m), ngõ 75 Trần Thái Tông, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội.
+                        </p>
+
+                        <p class="content-text">
+                            Diện tích: 150m2/sàn.
+                        </p>
+
+                        <p class="content-text">
+                            Gồm 1 hầm, 6 sàn từ tầng lửng đến tầng 5.
+                        </p>
+
+                        <p class="content-text">
+                            Trong đó diện tích sử dụng 120 - 125m2/sàn/ tầng.
+                        </p>
+
+                        <p class="content-text">
+                            Thiết kế hiện đại, tiện nghi.
+                        </p>
+
+                        <p class="content-text">
+                            Giá: 32 triệu/sàn.
+                        </p>
+
+                        <ul class="content-list">Tiện ích:
+                            <li>+ Tầng hầm 150m2 thuận tiện để ô tô và xe máy.</li>
+                            <li>+ 1 sàn văn phòng có 2 WC, 1 phòng pha trà nước, cầu thang bộ gỗ óc chó, trong phòng đã có nội thất tủ gỗ.</li>
+                            <li>+ Vị trí thuận lợi cho văn phòng và kinh doanh, đường giao thông 10m5, nằm giữa 2 con phố sầm uất Trần Thái Tông(cách 150m) và Khúc Thừa Dụ (50m).</li>
+                            <li>+ Thang máy, hệ thống điều hòa tổng, hệ thống phòng cháy chữa cháy, máy phát điện dự phòng của cả tòa nhà.</li>
+                            <li>+ Cam kết cho thuê lâu dài, ưu tiên các công ty nước ngoài hoặc các công ty thuê chọn cả 6 sàn.</li>
+                        </ul>
+
+                        <p class="content-text">
+                            Nhà sổ đỏ chính chủ.
+                        </p>
+
+                        <p class="content-text">
+                            Liên hệ chính chủ:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="details-map">
+                    <div class="map-heading">
+                        XEM TRÊN BẢN ĐỒ
+                    </div>
+
+                    <div class="map-holder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14906.641482668438!2d106.5702042!3d20.9259795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1625711949117!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hn-office-keyword">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="keyword-holder keyword-holder-1">
+                <div class="keyword-heading">
+                    Tìm kiếm theo từ khóa
+                </div>
+
+                <div class="keyword-main">
+                    <a href="#" class="keyword-item">
+                        Cho thuê văn phòng tại Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng đẹp cho thuê Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng cho thuê ở HN
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn Phòng cho thuê tại Hà Nội
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng cho thuê giá rẻ
+                    </a>
+
+                    <a href="#" class="keyword-item">
+                        Văn phòng Hà Nội cho thuê
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-by-street office-by-street-upload">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="office-street-holder">
+                <div class="office-street-slider">
+                    <div class="swiper-container uploadSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-1.png" alt="office-street-img-1">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Chính 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-2.png" alt="office-street-img-2">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Trãi 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-3.png" alt="office-street-img-3">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Trần Duy Hưng 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-2.png" alt="office-street-img-2">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Trãi 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="img-holder">
+                                    <img src="./images/office-street-img-1.png" alt="office-street-img-1">
+                                </div>
+    
+                                <div class="text-holder">
+                                    <h6>
+                                        Đường Nguyễn Chính 
+                                    </h6>
+    
+                                    <p>
+                                        Văn phòng truyền thống hay văn phòng làm việc riêng là loại hình văn phòng làm việc riêng là loại hình văn loại ...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn btn-next"><i class="fas fa-angle-double-right"></i></div>
+                        <div class="btn btn-prev"><i class="fas fa-angle-double-left"></i></div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="footer-holder">
+                <div class="footer-logo">
+                    <img src="./images/footer-logo.png" alt="footer-logo">
+                </div>
+
+                <div class="footer-content">
+                    <div class="content-item">
+                        <div class="item-heading item-company">
+                            ĐÔI NÉT VỀ CÔNG TY  
+                        </div>
+
+                        <div class="item-company-name">
+                            Công ty TNHH Leadsoft
+                        </div>
+
+                        <div class="item-company-address">
+                            <div class="icon-holder">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            
+                            <div class="address-holder">
+                                <p>
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Quận Thanh Xuân, Thành phố Hà Nội. 
+                                </p>
+    
+                                <p id="p2">
+                                    <img src="./images/thumb-nail-icon.png" alt="thumb-nail-icon">
+                                    Nguyễn Xiển, Q. Thanh Xuân, Thành phố Hà Nội.
+                                </p>     
+                            </div>
+                        </div>
+
+                        <div class="item-company-contact">
+                            <div class="contact-number">
+                                <p><i class="fas fa-phone-alt"></i> (08) 0909 0099  -  090 099 0909</p>
+                            </div>
+
+                            <div class="contact-social">
+                                <img src="./images/social-contact.png" alt="social-contact">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo đường
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Duy Tân</a>
+                            <a href="#">Cầu Giấy</a>
+                            <a href="#">Phạm Hùng</a>
+                            <a href="#">Bà Triệu</a>
+                            <a href="#">Tố Hữu</a>
+                            <a href="#" class="another-road">Các đường khác</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            tìm theo quận
+                        </div>
+
+                        <div class="item-link">
+                            <a href="#">Quận Thanh Xuân</a>
+                            <a href="#">Quận Đống Đa</a>
+                            <a href="#">Quận Nam Từ Liêm</a>
+                            <a href="#">Quận Hà Đông</a>
+                            <a href="#">Quận Cầu Giấy</a>
+                            <a href="#">Quận Bắc Từ Liêm</a>
+                        </div>
+                    </div>
+
+                    <div class="content-item">
+                        <div class="item-heading">
+                            Tổng đài hỗ trợ
+                        </div>
+
+                        <div class="customer-care">
+                            <p><i class="fas fa-headphones-alt"></i>Tổng đài CSKH: (08) 0909 0909</p>
+                            <a href="mailto:"><i class="far fa-envelope-open"></i>webdemo@gmail.com</a>
+                        </div>
+
+                        <div class="customer-form">
+                            <p>Đăng ký ngay để nhận thông tin</p>
+                            <form>
+                                <input type="text" placeholder="Nhập email của bạn">
+                                <input type="submit" class="btn-send" value="Gửi">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    Được phát triển bởi <span>LEADSOFT</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/60c085dbff.js" crossorigin="anonymous"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./slideshow.js"></script>
+
+</body>
+</html>
